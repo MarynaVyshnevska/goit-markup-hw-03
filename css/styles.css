@@ -73,12 +73,16 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    
     align-content: center;
+    
     
 }
 header {
     border-bottom: 1px solid #ececec;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    height: 80px;
 }
 
 .logo-black,
@@ -202,6 +206,7 @@ section {
 
 .benefits-list {
     margin-right: 30px;
+    width: 270px;
 }
 
 .benefits-list:last-child {
@@ -228,7 +233,7 @@ section {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .benefits-text {
     font-size: 14px;
@@ -325,7 +330,7 @@ address {
 /* Portfolio unic*/
 
 .button-container {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
        
 }
 
@@ -404,14 +409,13 @@ address {
 }
 .portfolio-title, 
 .portfolio-text {
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .portfolio-box {
     box-sizing: border-box;
     border: 1px solid #eee;
-    /* border-left: 1px solid #eee;
-    border-bottom: 1px solid #eee; */
+    
     padding-bottom: 20px;
     padding-top: 20px;
 }
